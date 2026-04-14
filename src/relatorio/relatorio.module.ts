@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { RelatorioService } from './relatorio.service';
-import { RelatorionestController } from 'src/g/relatorionest/relatorio.controller.ts';
+import { RelatorionestController } from 'src/app.controller';
 
 @Module({
   controllers: [RelatorionestController],
